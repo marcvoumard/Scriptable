@@ -61,9 +61,9 @@ class Configuration {
   jeedomData = {
     'header': [ // only 4 items in header MAX
       {
-        'title': 'Title 1', // title you want to display in widget
+        'title': 'Mercedes', // title you want to display in widget
         'type': 'cmd', // type in Jeedom
-        'id': 111, // id of data you want to get from Jeedom
+        'id': 33301, // id of data you want to get from Jeedom
         'icon': true, // true for green icon, false for red, medium for yellow, conditional for manual setting, next field should not be empty
         'idCondition': null, // id of data to dynamically change icon
         'typeCondition': 'cmd', // type in Jeedom for conditional icon
